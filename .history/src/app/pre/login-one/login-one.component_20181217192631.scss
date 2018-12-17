@@ -1,0 +1,11 @@
+.pageContent {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    > .container > .row {
+        height: 85vh;
+        li {
+            margin: 0 5px;
+        }
+    }
+}

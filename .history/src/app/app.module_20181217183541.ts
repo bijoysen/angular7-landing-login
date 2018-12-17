@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { LandingComponent } from './pre/landing/landing.component';
+import { LoginComponent } from './pre/login/login.component';
 import { LoginOneComponent } from './pre/login-one/login-one.component';
 import { LoginTwoComponent } from './pre/login-two/login-two.component';
 import { LoginThreeComponent } from './pre/login-three/login-three.component';
-import { DashboardComponent } from './post/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +17,10 @@ import { DashboardComponent } from './post/dashboard/dashboard.component';
     HeaderComponent,
     FooterComponent,
     LandingComponent,
+    LoginComponent,
     LoginOneComponent,
     LoginTwoComponent,
-    LoginThreeComponent,
-    DashboardComponent
+    LoginThreeComponent
   ],
   imports: [
     BrowserModule,

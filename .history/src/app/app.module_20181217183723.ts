@@ -9,7 +9,6 @@ import { LandingComponent } from './pre/landing/landing.component';
 import { LoginOneComponent } from './pre/login-one/login-one.component';
 import { LoginTwoComponent } from './pre/login-two/login-two.component';
 import { LoginThreeComponent } from './pre/login-three/login-three.component';
-import { DashboardComponent } from './post/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +18,7 @@ import { DashboardComponent } from './post/dashboard/dashboard.component';
     LandingComponent,
     LoginOneComponent,
     LoginTwoComponent,
-    LoginThreeComponent,
-    DashboardComponent
+    LoginThreeComponent
   ],
   imports: [
     BrowserModule,
