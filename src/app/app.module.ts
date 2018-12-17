@@ -10,6 +10,8 @@ import { LoginOneComponent } from './pre/login-one/login-one.component';
 import { LoginTwoComponent } from './pre/login-two/login-two.component';
 import { LoginThreeComponent } from './pre/login-three/login-three.component';
 import { DashboardComponent } from './post/dashboard/dashboard.component';
+import { FaqComponent } from './pre/faq/faq.component';
+import { ReviewComponent } from './pre/review/review.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { DashboardComponent } from './post/dashboard/dashboard.component';
     LoginOneComponent,
     LoginTwoComponent,
     LoginThreeComponent,
-    DashboardComponent
+    DashboardComponent,
+    FaqComponent,
+    ReviewComponent
   ],
   imports: [
     BrowserModule,
